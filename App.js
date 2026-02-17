@@ -1,7 +1,7 @@
 // App.js
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Text } from 'react-native';
-import { Header } from './src/components';
+import { Header, ProfileCard } from './src/components';
 
 export default function App() {
   return (
@@ -9,6 +9,11 @@ export default function App() {
       <Header 
         title="Nurul INSANI" 
         subtitle="105841108321"
+      />
+      <ProfileCard
+        name="Nurul INSANI"
+        nim="105841108321"
+        program="Informatika"
       />
       <View style={styles.content}>
         <Text style={styles.text}>Konten aplikasi di sini</Text>
